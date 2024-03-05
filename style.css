@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background: #222;
 }
 .card{
@@ -91,13 +96,6 @@ font-weight: 500;
     display: none;
 }
 @media (max-width: 768px) {
-    body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
     .card{
         width: 100%;
         padding: 20px 15px;
